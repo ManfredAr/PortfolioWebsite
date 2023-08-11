@@ -1,0 +1,195 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: rgb(108,0,201);
+    background: linear-gradient(90deg, rgba(108,0,201,1) 44%, rgba(168,0,228,1) 100%);
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #000000;
+    color: white;
+    font-size: 20px;
+    z-index: 2;
+}
+
+.content-list a{
+    text-decoration: none;
+    color: white;
+}
+
+.content-list {
+    margin: 0;
+}
+
+.navbar li {
+    display: inline;
+    padding: 20px;
+}
+
+.name, .content-list {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.navbar a {
+    transition: padding 0.3s ease;
+}
+
+.navbar a:hover {
+    padding: 5px;
+    background-color: #d4b0ff;
+    border-radius: 15px;
+}
+
+.header {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    font-family: impact;
+    height: 50vh;
+    border-radius: 40px;
+}
+
+.header {
+    flex-direction: column;
+    background-color: rgb(255 255 255 / 11%);
+    backdrop-filter: blur(5px);
+    box-shadow: 0 10px 15px rgb(0 0 0 / 0.2);
+    display: flex;
+}
+
+.header h1 {
+    font-size: 5vw;; 
+    color: #e3adff;
+    overflow: hidden;
+    border-right: .15em solid white;
+    white-space: nowrap; 
+    margin: 0 auto; 
+    animation: 
+      typing 3.4s steps(40, end),
+      blink-caret .75s step-end infinite;
+}
+  
+/* The typing effect */
+@keyframes typing {
+    from { width: 0 }
+    to { width: 78% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange; }
+}
+
+.About {
+    background-color: rgb(255 255 255 / 11%);
+    backdrop-filter: blur(5px);
+    color: #e3adff;
+    box-shadow: 0 10px 15px rgb(0 0 0 / 0.2);
+    border-radius: 40px;
+    margin-top: 200px;
+    padding: 40px;
+}
+
+.About p {
+    font-size: 20px;
+}
+
+.down, .up {
+    text-align: center;
+    margin-top: 10px; 
+    width: 100px;
+    height: 100px; 
+}
+
+i.fa.fa-angle-down, i.fa.fa-angle-up {
+    font-size: 100px;
+    color: black;
+}
+
+.down:hover, i.fa.fa-angle-down:hover, i.fa.fa-angle-up:hover {
+    background: #050505;
+    border-radius: 50%;
+    color: white;
+}
+
+.scroll, .down {
+    display: flex;
+    justify-content: center;
+}
+
+.educ {
+    background-color: rgb(255 255 255 / 11%);
+    backdrop-filter: blur(5px);
+    color: #e3adff;
+    box-shadow: 0 10px 15px rgb(0 0 0 / 0.2);
+    border-radius: 40px;
+    margin-top: 200px;
+    padding: 40px;
+}
+
+.bar ul {
+    margin: 0;
+}
+
+.bar button {
+    border: none;
+    margin-right: 15px;
+    padding: 10px;
+    background: white;
+    border-radius: 15px
+}
+
+.title h1 {
+    margin-bottom: 20px; 
+}
+
+.grades {
+    margin-top: 20px;
+}
+
+.title h1 {
+    font-size: 60px;
+}
+
+.educ li {
+    font-size: 20px;
+}
+
+.project, .skill, .contacts {
+    background-color: rgb(255 255 255 / 11%);
+    backdrop-filter: blur(5px);
+    color: #e3adff;
+    box-shadow: 0 10px 15px rgb(0 0 0 / 0.2);
+    border-radius: 40px;
+    margin-top: 200px;
+    padding: 40px;
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+    height: 20%;
+    width: auto;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+}
+
+.technologies, .soft {
+    margin-left: 100px;
+}
+
+.contacts {
+    margin-bottom: 20px;
+}
