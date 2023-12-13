@@ -29,17 +29,27 @@ document.addEventListener("DOMContentLoaded", () => {
 document.addEventListener("DOMContentLoaded", () => {
     const twitter = document.getElementById("twitter-but");
     const spotify = document.getElementById("spotify-but");
+    const sudoku = document.getElementById("sudoku-but");
 
     const twitterDiv = document.getElementById("clone");
     const spotifyDiv = document.getElementById("spotify");
+    const sudokuDiv = document.getElementById("sudoku");
 
     twitter.addEventListener("click", () => {
         twitterDiv.style.display = "block";
         spotifyDiv.style.display = "none";
+        sudokuDiv.style.display = "none";
     });
 
     spotify.addEventListener("click", () => {
         twitterDiv.style.display = "none";
         spotifyDiv.style.display = "block";
+        sudokuDiv.style.display = "none";
+    });
+
+    sudoku.addEventListener("click", () => {
+        twitterDiv.style.display = "none";
+        spotifyDiv.style.display = "none";
+        sudokuDiv.style.display = "block";
     });
 });
